@@ -9,11 +9,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <Navbar/>
-    <MainComponent/>
-    <Footer/>
-    </>
+    <div className="font-spaceGrotesk px-24 py-10">
+      <Navbar />
+      <MainContent />
+    </div>
   )
 }
 
